@@ -23,3 +23,9 @@ recommended this to me. However, my pyinstaller build did not work. :( HELP
 
 ## Building with nix
 `nix-build` to get a script with all the libraries and ffmpeg, `nix-build -A bundle` to get a single binary.
+
+
+
+# bug
+ffmpeg 需要使用低版本
+https://github.com/BtbN/FFmpeg-Builds/releases/tag/autobuild-2020-09-30-23-26
